@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple Movie Library</title>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="MoviesApp.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head> 
+<body ng-app="MoviesApp">
+    <div ng-controller="MovieController" class="container">
+        <h1>Simple Movie Library</h1>
+        <div class="input-group">
+            <input type="text" class="form-control" ng-model="searchTitle" placeholder="Search for...">
+            <span class="input-group-btn">
+                <button class="btn btn-default" ng-click="searchMovies()" type="button">Go!</button>
+            </span>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                    <th>Plot</th>
+                    <th>&nbsp;</th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <th><input ng-model="movie.title" class="form-control" /></th>
+                    <th><input ng-model="movie.year" class="form-control" /></th>
+                    <th><input ng-model="movie.rating" class="form-control" /></th>
+                    <th><input ng-model="movie.plot" class="form-control" /></th>
+                    <th>
+                        <button ng-click="addMovie()" class="btn btn-success">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                        <button ng-click="saveMovie()" class="btn btn-primary">
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </button>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="movie in movies">
+                    <td>{{movie.title}}</td>
+                    <td>{{movie.year}}</td>
+                    <td>{{movie.rating}}</td>
+                    <td>{{movie.plot}}</td>
+                    <td>
+                        <button ng-click="removeMovie(movie)" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-remove"></span>
+                        </button>
+                        <button ng-click="selectMovie(movie)" class="btn btn-warning">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                        </button>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
