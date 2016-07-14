@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebConsumerDynamic", "WebConsumerDynamic.vcxproj", "{901A7600-CFFE-42B6-90FD-5E992888E4E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpprestsdk140", "..\..\casablanca\Release\src\build\vs14\casablanca140.vcxproj", "{1014C621-BC2D-4813-B8C1-6D83AD6F9249}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32", "..\..\casablanca\Release\src\build\win32.vcxitems", "{F40F4804-50F9-4257-8D74-B9CBB19AC4C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "..\..\casablanca\Release\src\build\common.vcxitems", "{594DCB5F-07E3-4084-A2CE-268611FA629F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cppRestSDK", "cppRestSDK", "{B5159267-B9AF-4202-847E-225FD7FA7BEE}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\casablanca\Release\src\build\common.vcxitems*{1014c621-bc2d-4813-b8c1-6d83ad6f9249}*SharedItemsImports = 4
+		..\..\casablanca\Release\src\build\win32.vcxitems*{1014c621-bc2d-4813-b8c1-6d83ad6f9249}*SharedItemsImports = 4
+		..\..\casablanca\Release\src\build\common.vcxitems*{594dcb5f-07e3-4084-a2ce-268611fa629f}*SharedItemsImports = 9
+		..\..\casablanca\Release\src\build\win32.vcxitems*{f40f4804-50f9-4257-8d74-b9cbb19ac4c3}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{901A7600-CFFE-42B6-90FD-5E992888E4E0}.Debug|ARM.ActiveCfg = Debug|Win32
+		{901A7600-CFFE-42B6-90FD-5E992888E4E0}.Debug|x64.ActiveCfg = Debug|x64
+		{901A7600-CFFE-42B6-90FD-5E992888E4E0}.Debug|x64.Build.0 = Debug|x64
+		{901A7600-CFFE-42B6-90FD-5E992888E4E0}.Debug|x86.ActiveCfg = Debug|Win32
+		{901A7600-CFFE-42B6-90FD-5E992888E4E0}.Debug|x86.Build.0 = Debug|Win32
+		{901A7600-CFFE-42B6-90FD-5E992888E4E0}.Release|ARM.ActiveCfg = Release|Win32
+		{901A7600-CFFE-42B6-90FD-5E992888E4E0}.Release|x64.ActiveCfg = Release|x64
+		{901A7600-CFFE-42B6-90FD-5E992888E4E0}.Release|x64.Build.0 = Release|x64
+		{901A7600-CFFE-42B6-90FD-5E992888E4E0}.Release|x86.ActiveCfg = Release|Win32
+		{901A7600-CFFE-42B6-90FD-5E992888E4E0}.Release|x86.Build.0 = Release|Win32
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|ARM.Build.0 = Debug|ARM
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x64.ActiveCfg = Debug|x64
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x64.Build.0 = Debug|x64
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x86.ActiveCfg = Debug|Win32
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x86.Build.0 = Debug|Win32
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|ARM.ActiveCfg = Release|ARM
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|ARM.Build.0 = Release|ARM
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x64.ActiveCfg = Release|x64
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x64.Build.0 = Release|x64
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x86.ActiveCfg = Release|Win32
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249} = {B5159267-B9AF-4202-847E-225FD7FA7BEE}
+		{F40F4804-50F9-4257-8D74-B9CBB19AC4C3} = {B5159267-B9AF-4202-847E-225FD7FA7BEE}
+		{594DCB5F-07E3-4084-A2CE-268611FA629F} = {B5159267-B9AF-4202-847E-225FD7FA7BEE}
+	EndGlobalSection
+EndGlobal
