@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ad12ccee-6815-4371-bf19-5769e865a788" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/WebServiceTest/PatientInformation/PatientInformation.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PatientInformation.xsd" MetadataType="Schema" ID="38d3d242-8f15-4935-a0b3-e0047a86eb8c" SourceId="1" SourceUrl="http://localhost/WebServiceTest/PatientInformation/PatientInformation.svc?xsd=xsd2" />
+    <MetadataFile FileName="PatientInformation1.xsd" MetadataType="Schema" ID="f003367e-204d-4d99-94f0-9b8924a3897b" SourceId="1" SourceUrl="http://localhost/WebServiceTest/PatientInformation/PatientInformation.svc?xsd=xsd0" />
+    <MetadataFile FileName="PatientInformation2.xsd" MetadataType="Schema" ID="b2623b74-4f6e-4884-9b75-89909fda598c" SourceId="1" SourceUrl="http://localhost/WebServiceTest/PatientInformation/PatientInformation.svc?xsd=xsd1" />
+    <MetadataFile FileName="PatientInformation.wsdl" MetadataType="Wsdl" ID="7f1efe3c-af9a-4df0-9824-4c631022728b" SourceId="1" SourceUrl="http://localhost/WebServiceTest/PatientInformation/PatientInformation.svc?wsdl" />
+    <MetadataFile FileName="PatientInformation.disco" MetadataType="Disco" ID="bbff8f91-0655-4f7b-b8c3-0f515e3900c0" SourceId="1" SourceUrl="http://localhost/WebServiceTest/PatientInformation/PatientInformation.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
